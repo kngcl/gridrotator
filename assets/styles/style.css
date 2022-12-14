@@ -1,12 +1,13 @@
 body {
   margin-top: 200px;
 }
+
 .rotate {
-text-align: center;
-border: 1px solid black;
-max-width: 350px;
-margin: auto; 
-padding: 1rem;
+  text-align: center;
+  border: 1px solid black;
+  max-width: 350px;
+  margin: auto;
+  padding: 1rem;
 }
 
 p {
@@ -21,5 +22,5 @@ button {
 }
 
 button:hover {
- background-color: green;
+  background-color: green;
 }
