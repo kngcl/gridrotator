@@ -1,4 +1,4 @@
-# Scale Balance
+# grid Rotator
 
 The projects is all about algorithm to rotate the outer buttons in a clockwise direction every time the middle button (button 5) is clicked and in an anti-clockwise direction if any other button is clicked.
 
