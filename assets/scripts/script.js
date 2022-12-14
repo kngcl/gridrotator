@@ -1,34 +1,33 @@
-let grid = [1, 4, 7, 8, 9, 6, 3, 2]
-const rotateButton = document.querySelector(".rotatebutton")
-const antiRotateButton = document.querySelectorAll(".anti")
-let button1 = document.getElementById("1")
-let button2 = document.getElementById("2")
-let button3 = document.getElementById("3")
-let button4 = document.getElementById("4")
-let button5 = document.getElementById("5")
-let button6 = document.getElementById("6")
-let button7 = document.getElementById("7")
-let button8 = document.getElementById("8")
-let button9 = document.getElementById("9")
+const grid = [1, 4, 7, 8, 9, 6, 3, 2]
+const rotateButton = document.querySelector('.rotatebutton')
+const antiRotateButton = document.querySelectorAll('.anti')
+const button1 = document.getElementById('1')
+const button2 = document.getElementById('2')
+const button3 = document.getElementById('3')
+const button4 = document.getElementById('4')
+const button6 = document.getElementById('6')
+const button7 = document.getElementById('7')
+const button8 = document.getElementById('8')
+const button9 = document.getElementById('9')
 let changedValue
 
-rotateButton.addEventListener("click", function () {
-  clockwise()
-  paint()
+rotateButton.addEventListener('click', function () {
+  clockwise ()
+  paint ()
 })
 
-for (let i of antiRotateButton) {
-  i.addEventListener("click", function () {
-    anticlockwise()
-    paint()
+for (const i of antiRotateButton) {
+  i.addEventListener('click', function () {
+    anticlockwise ()
+    paint ()
   })
 }
-function clockwise() {
+function clockwise () {
   changedValue = grid.shift()
   grid.push(changedValue)
 }
 
-function anticlockwise() {
+function anticlockwise () {
   changedValue = grid.pop()
   console.log(changedValue)
   grid.unshift(changedValue)
