@@ -12,14 +12,14 @@ const button9 = document.getElementById('9')
 let changedValue
 
 rotateButton.addEventListener('click', function () {
-  clockwise ()
-  paint ()
+  clockwise()
+  paint()
 })
 
 for (const i of antiRotateButton) {
   i.addEventListener('click', function () {
-    anticlockwise ()
-    paint ()
+    anticlockwise()
+    paint()
   })
 }
 function clockwise () {
@@ -33,7 +33,7 @@ function anticlockwise () {
   grid.unshift(changedValue)
 }
 
-function paint() {
+function paint () {
   button1.innerHTML = grid[0]
   button2.innerHTML = grid[7]
   button3.innerHTML = grid[6]
