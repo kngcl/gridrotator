@@ -1,5 +1,5 @@
 let grid = [1, 4, 7, 8, 9, 6, 3, 2]
-const rotateButton = document.querySelector(".rotateButton")
+const rotateButton = document.querySelector(".rotatebutton")
 const antiRotateButton = document.querySelectorAll(".anti")
 let button1 = document.getElementById("1")
 let button2 = document.getElementById("2")
