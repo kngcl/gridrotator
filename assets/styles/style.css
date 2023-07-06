@@ -1,0 +1,26 @@
+body {
+  margin-top: 200px;
+}
+
+.rotate {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 350px;
+  margin: auto;
+  padding: 1rem;
+}
+
+p {
+  font-size: 30px;
+}
+
+button {
+  padding: 1.5vw 2.5vw;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
